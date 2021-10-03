@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Big+Shoulders+Stencil+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(8, 34, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     position:sticky
+    
+}
+
+header h1 a{
+    color: #fff;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    padding: 15px;
+    font-size: 40px;
+}
+
+header form{
+    padding: 15px;
+   display: flex;
+   margin-top: -40px;
+
+}
+
+ form label{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+form input{
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#btn{
+    background-color: rgb(3, 50, 94);
+    color: white;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    cursor: pointer;
+}
+section ul .cat1{
+background-color: #fae678;
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+section ul .cat2{
+background-color: #ff8c5e;
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+section ul .cat3{
+background-color: rgb(243, 74, 74);
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+section ul .cat4{
+background-color: #456921;
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+section ul .cat5{
+background-color: pink;
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+section ul .cat6{
+background-color: rgb(134, 46, 134);
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+section ul .cat7{
+background-color: rgb(71, 71, 238);
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+section ul .cat8{
+background-color: rgb(75, 206, 162);
+width: 100%;
+height: 30px;
+padding: 3px;
+}
+ section ul li:hover{
+     font-size: 18px;
+     color: rgb(63, 63, 63);
+ }
+
+ main{
+     max-width: 1260px;
+     max-height: 690px;
+     overflow: scroll;
+ }
+ .noticia{
+    max-width: 1220px;
+    height: auto;
+    Margin: 10px;
+    Padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+    font-family: 'Castoro', serif;
+    box-shadow: 1px 1px 2px 1px rgb(129, 129, 129);
+ }
+ .descs{
+    margin: 10px 0;
+ }
+ #imgs{
+     width: 600px;
+     height: auto;
+ }
+.noticia h2{
+    width: 100%;
+    background-color: rgb(184, 182, 182);
+}
+ .noticia h3{
+    color: rgb(0, 47, 150);
+ }
+ .text{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+ }
+footer{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-color: rgb(8, 34, 56);
+    padding:10px;
+    font-size: 10px;
+    display: flex;
+    position: sticky;
+}
